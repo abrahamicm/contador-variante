@@ -32,6 +32,8 @@ Los parámetros obligatorios son startDate, enddate, startvalue, endvalue, perio
     <div class="corefix-contador-mostrar"></div>
 </div>
 ~~~
+- el cuando se llama el shortcode encola el siguiente script `corefix-contador.js`
+- el script toma los valores del html y realiza el calculo del progreso, el resustado se mostraraen los divs con la clase `corefix-contador-mostrar`
 
 ## ejemplo de uso
 ~~~
