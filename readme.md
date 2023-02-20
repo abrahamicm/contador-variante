@@ -24,6 +24,14 @@ Los parámetros obligatorios son startDate, enddate, startvalue, endvalue, perio
 - separador de mil es ','
 - periodday y periodnight representa el peridoso en segundos, ejemplo si se quiere establece que el periodo diurno sea un segundo `periodday=1`, si queremos que el periodo nocturno sea medio segundo `periodnight=0.5`
 
+## funcionamiento
+- el plugin tiene el shortcode [corefix_contador], este shortcode tiene como salida el siguiente html
+~~~html
+<div class="corefix-contador" data-startdate="2023-02-10" data-enddate="2023-02-25" data-startvalue="0"
+    data-endvalue="20000" data-periodday="1" data-periodnight="0.5">
+    <div class="corefix-contador-mostrar"></div>
+</div>
+~~~
 
 ## ejemplo de uso
 ~~~
